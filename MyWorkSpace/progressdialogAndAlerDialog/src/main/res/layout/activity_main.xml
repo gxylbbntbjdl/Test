@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/cylcre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog圆形"/>
+    <Button
+        android:id="@+id/tiaoxing_nodongtai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog条形，不动态更新"/>
+    <Button
+        android:id="@+id/tiaoxing_and_dongtai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ProgressDialog条形动态更新"/>
+    <Button
+        android:id="@+id/putong_AlerDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通对话框"/>
+    <Button
+        android:id="@+id/putong_AlerDialogList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="普通列表对话框"/>
+
+    <Button
+        android:id="@+id/AlerDialog_singlechoice_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选列表对话框"/>
+    <Button
+        android:id="@+id/AlerDialog_multichoice_List"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单选列表对话框"/>
+    <Button
+        android:id="@+id/next_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下一个Activity"/>
+    <Button
+        android:id="@+id/btn_ndk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NDKActivity"/>
+
+
+
+
+</LinearLayout>

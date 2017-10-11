@@ -1,0 +1,1 @@
+include ':app', ':myapp2', ':annotationstest', ':ormlitetest', ':expdablelistview', ':progressdialogAndAlerDialog', ':zh_ypgt', ':poi'

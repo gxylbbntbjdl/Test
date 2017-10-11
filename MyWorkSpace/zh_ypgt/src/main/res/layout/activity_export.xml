@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/head_page">
+    </include>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="文件名"/>
+    <EditText
+        android:id="@+id/et_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#ffffff"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="导出页面列表"/>
+    <ListView
+        android:id="@+id/lv_export"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </ListView>
+
+    <include
+        layout="@layout/foot_page">
+    </include>
+
+</LinearLayout>
